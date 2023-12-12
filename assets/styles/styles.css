@@ -46,7 +46,7 @@ ul li:last-child {
 .texto__vidasana {
   font-size: 40px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+}g
 
 .img__vidasana,
 .texto__vidasana {
@@ -72,4 +72,8 @@ ul li:last-child {
 .texto__vidasana {
     width: 100%;  
   }
+}
+
+.mouse__img {
+  width: 300px;
 }
