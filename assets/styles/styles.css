@@ -105,8 +105,9 @@ ul li:last-child {
     height: 500px;
     z-index: 1;
     position: relative;
-    float:inline-end;
+    justify-content: center;
   }
+  
 
 
 
