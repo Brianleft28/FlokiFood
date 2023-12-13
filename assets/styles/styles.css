@@ -24,6 +24,7 @@ ul li:last-child {
   min-width: 100vw;
   box-shadow: 1px 4px 4px #3131;
   top: 0;
+  z-index: 50;
 
 }
 
@@ -90,6 +91,25 @@ ul li:last-child {
     width: 100%;
     max-width: 400px;
   }
+
+  .nav {
+    z-index: 2000 !important;
+  }
+  .carousel__modal {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    margin: 0;
+    width: 50%;
+    width: 400px;
+    height: 500px;
+    z-index: 1;
+    position: relative;
+    float:inline-end;
+  }
+
+
+
 }
 
 
@@ -108,9 +128,7 @@ ul li:last-child {
   
   span.texto__vidasana {
     margin-top: 5px !important;
-    flex: 2;
-  }
-  
+  } 
 
   .img__vidasana {
     margin: 0;
